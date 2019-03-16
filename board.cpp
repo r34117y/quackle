@@ -645,7 +645,7 @@ UVString Board::htmlBoard(const int tileSize) const
 
 	const UVString centerAlign = "valign=\"middle\" align=\"center\"";
 
-	ss << "<table bgcolor=dimgrey>\n";
+	ss << "<div class=\"singleMove\"><table bgcolor=dimgrey>\n";
 	ss << "<tr>\n";
 	ss << "<td bgcolor=\"" << markBgcolor << "\" " << centerAlign << ">" << "&nbsp;" << "</td>";
 	for (int col = 0; col < m_width; ++col)
