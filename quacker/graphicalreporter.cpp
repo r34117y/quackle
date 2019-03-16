@@ -205,7 +205,7 @@ void GraphicalReporter::reportPosition(const Quackle::GamePosition &position, Qu
 			if (!item.isEmpty())
 				m_indexStream << "<li>" << item << "</li>" << endl;
 		}
-		m_indexStream << "</ol>" << endl;
+		m_indexStream << "</ol></div>" << endl;
 	}
 
 	m_indexStream << "\n\n";
